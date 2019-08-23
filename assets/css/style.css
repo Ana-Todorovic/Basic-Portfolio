@@ -10,11 +10,8 @@ header{
   padding-bottom: 20px;
   margin-left: 200px;
 }
-li {
+li{
   display: inline-block;
-  margin-left: 30px;
-  margin-top:0px;
-  color: #777777;
 }
 ul{
   text-align: right;
@@ -32,7 +29,7 @@ ul{
   padding: 50px;
   outline-style: solid;
   outline-color: hsla(0,0%,0%,0.1);
-  outline-width: 500px; 
+  outline-width: 500px;
   margin:auto;
 }
 #basic_portfolio{
@@ -70,9 +67,14 @@ footer{
   height: 100px;
   width: 100%;
 }
-.simple_button{
+#simple_button{
   background: #4aaaa5;
   color: #ffffff;
   border: 1px solid #cccccc;
   margin-top: 10px;
+}
+a{
+  color: #777777;
+  text-decoration: none;
+  margin-left: 5px;
 }
